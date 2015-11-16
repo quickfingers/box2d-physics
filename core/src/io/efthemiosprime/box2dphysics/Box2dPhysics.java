@@ -11,7 +11,7 @@ public class Box2dPhysics extends Game {
 	@Override
 	public void create () {
 		batch = new SpriteBatch();
-		setScreen(new Basic());
+		setScreen(new Basic(this));
 	}
 
 	@Override
